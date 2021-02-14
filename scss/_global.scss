@@ -49,18 +49,34 @@ p {
 
 .section-heading {
   text-transform: uppercase;
+  line-height: 1;
   .section-heading-upper {
     display: block;
     font-size: 1rem;
     font-weight: 800;
+    color: $white
   }
   .section-heading-lower {
     display: block;
     font-size: 3rem;
     font-weight: 100;
+    color: $white
   }
 }
 
 .bg-faded {
   background-color: fade-out($white, 0.15);
 }
+
+.about-us { 
+  text-transform: none;
+  line-height: 1;
+    .about-us-text { 
+      display: block;
+      margin: auto; 
+      font-size: small; 
+      font-weight: 100;
+      color: black;
+    }
+}
+

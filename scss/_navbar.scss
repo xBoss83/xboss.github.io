@@ -1,5 +1,5 @@
 #mainNav {
-  background-color: fade-out($secondary, 0.1);
+  background-color: fade-out($black, 0.1);
   @include heading-font;
   .navbar-brand {
     color: $primary;
@@ -29,7 +29,7 @@
         }
         &.active {
           .nav-link:hover {
-            color: $primary;
+            color: $black;
           }
         }
       }
